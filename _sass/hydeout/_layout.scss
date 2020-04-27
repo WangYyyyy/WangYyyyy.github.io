@@ -230,7 +230,7 @@ body {
     }
 
     > * {
-      max-width: 38rem;
+      max-width: 48rem;
       padding: 0;
     }
   }
@@ -295,6 +295,7 @@ body {
 #sidebar nav > * {
   display: block;
   line-height: 1.75;
+  font-size: 1.4rem;
 }
 
 #sidebar nav > .icon {

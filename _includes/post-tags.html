@@ -15,7 +15,8 @@
     {% else %}<span>{% endif %}
       <span class="icon">
         {% include svg/tags.svg %}
-      </span>&nbsp;<span class="tag-name">{{ tag }}</span>
+      <!-- </span>&nbsp;<span class="tag-name">{{ tag }}</span> -->
+      </span><span class="tag-name">{{ tag }}</span>
     {% if tags_page %}</a>{% else %}</span>{% endif %}
   {% endfor %}
 </div>
