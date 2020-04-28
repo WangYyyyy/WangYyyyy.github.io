@@ -160,6 +160,9 @@ body {
   }
 
   #sidebar {
+    height: 100%;
+    // margin: 0;
+    // padding:0;
     position: fixed;
 
     // Attach to bottom or top of window
@@ -280,11 +283,18 @@ body {
   flex-flow: column nowrap;
 }
 
+#sidebar .sidebar-license {
+  position: fixed;
+  bottom: 18px;
+}
+
 #sidebar-icon-links {
   flex-flow: row wrap;
   justify-content: center;
-  margin-top: 1rem;
+  // margin-top: 1rem;
   max-width: 100%;
+  position: fixed;
+  bottom: 38px;
 
   @media (min-width: $large-breakpoint) {
     justify-content: flex-start;
