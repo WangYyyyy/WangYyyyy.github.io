@@ -27,7 +27,7 @@ class TestModel {
   int key2;
 
   TestModel({this.key1, this.key2});
-  
+
   TestModel.fromJson(Map<String, dynamic> json) {
     firstName = json['key1'];
     lastName = json['key2'];
@@ -143,6 +143,8 @@ final params = model.toJson();
 $ flutter packages pub run build_runner watch
 ```
 ## 总结
+最后附上项目 [Demo-GitHub](https://github.com/WangYyyyy/dart_obj_json_coding)
+
 个人感觉[json_to_dart](https://javiercbk.github.io/json_to_dart/) 的方法是好于 [json_serializable](https://pub.dev/packages/json_serializable#-installing-tab-) 的
 
 [json_serializable](https://pub.dev/packages/json_serializable#-installing-tab-) 会入侵项目代码, 且需要额外的配置, 还需要命令手动生成
