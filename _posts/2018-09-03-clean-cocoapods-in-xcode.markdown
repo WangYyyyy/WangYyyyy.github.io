@@ -10,7 +10,7 @@ tags:
   - Ruby
   - gem
 ---
-本文基于已经安装过pods环境, 如果没有安装请移步[CocoaPods安装](http://blog.wyyy.me/ios/2017/06/24/install-cocoapods.html)先进行安装!
+本文基于已经安装过pods环境, 如果没有安装请移步[CocoaPods安装](http://blog.wyyy.me/ios/2017/06/25/install-cocoapods.html)先进行安装!
 
 我们在遇到一些老项目或者项目依赖混乱时, 直接彻底移除pod从头再来不妨是一个选择.
 
