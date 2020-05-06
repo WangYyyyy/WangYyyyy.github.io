@@ -13,7 +13,7 @@ BasicMessageChannel实现功能是flutter与原生之间互相**发送数据**, 
 
 ### Flutter声明channel
 声明一个名字为`Test_BasicMessageChannel`的channel
-其中`StandardMessageCodec`为消息的类型, 还有`BinaryCodec`, `StringCodec`, `JSONMessageCodec`, `JSONMethodCodec`, `StandardMessageCodec`, `StandardMethodCodec`, 具体的还请自行查文档, 但光看名字已经大概看得出消息传递类型的使用场景.
+其中`StandardMessageCodec`为消息的类型, 还有`BinaryCodec`, `StringCodec`, `JSONMessageCodec`, `JSONMethodCodec`, `StandardMessageCodec`, `StandardMethodCodec`, 具体的还请自行查文档, 但只看名字已经大概看得出消息传递类型的使用场景.
 ```dart
 //核心代码, 声明channel
 final messageChannel = BasicMessageChannel("Test_BasicMessageChannel", StandardMessageCodec());
@@ -56,7 +56,7 @@ Standard类型应该可以兼容大多数场景, 具体跟原生的类型对应�
 ///  * [List]\: `NSArray`
 ///  * [Map]\: `NSDictionary`
 ```
-### Android注册channel
+### Android核心代码
 ```java
  BasicMessageChannel messageChannel = new BasicMessageChannel(flutterEngine.getDartExecutor().getBinaryMessenger(), "Test_BasicMessageChannel", StandardMessageCodec.INSTANCE);
 
@@ -74,7 +74,7 @@ Standard类型应该可以兼容大多数场景, 具体跟原生的类型对应�
   }
 });
  ```
-### iOS注册channel
+### iOS核心代码
 ```swift
 let root = self.window.rootViewController as! FlutterViewController
 let messageChannel = FlutterBasicMessageChannel.init(name: "Test_BasicMessageChannel", binaryMessenger:root.binaryMessenger , codec: FlutterStandardMessageCodec.sharedInstance())
