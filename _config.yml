@@ -24,9 +24,9 @@ email: 5877156@qq.com
 description: >- # this means to ignore newlines until "baseurl:"
   欢迎来到WyBlog.<br/>
   Blog记录平时开发中的一些技术细节和实用工具.<br/>
-  作者是一位核心Flutter, iOS开发者, 同时兼顾Android, 小程序, Java后台开发. 坐标山东济南, 热爱编程, 正在努力创造更好的产品.<br/>
+  作者是一位Flutter, iOS开发者, 同时兼顾Android, 小程序, Java后台开发. 坐标山东济南, 热爱编程, 正在努力创造更好的产品.<br/>
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://blog.mangosteen.tech/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://blog.wyyy.me/" # the base hostname & protocol for your site, e.g. http://example.com
 
 sidebar_home_link:  true
 hydeout:

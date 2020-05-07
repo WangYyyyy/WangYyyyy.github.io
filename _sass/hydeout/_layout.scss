@@ -284,8 +284,8 @@ body {
 }
 
 #sidebar .sidebar-license {
-  position: fixed;
-  bottom: 18px;
+  // position: fixed;
+  // bottom: 18px;
 }
 
 #sidebar-icon-links {
@@ -293,8 +293,8 @@ body {
   justify-content: center;
   // margin-top: 1rem;
   max-width: 100%;
-  position: fixed;
-  bottom: 38px;
+  // position: fixed;
+  // bottom: 38px;
 
   @media (min-width: $large-breakpoint) {
     justify-content: flex-start;
