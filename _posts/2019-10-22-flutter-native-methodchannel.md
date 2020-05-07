@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Flutter与原生(Android, iOS)通讯之MethodChannel"
-date:   2019-10-21 14:22:32 +0800
+date:   2019-10-22 14:22:32 +0800
 categories: Flutter
 tags:
   - Dart
