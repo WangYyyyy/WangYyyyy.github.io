@@ -11,6 +11,7 @@ tags:
 之前也有一个bug是在iOS 13环境下, iOS原生打印失效的问题, 现在更新到`Flutter版本: 1.17.0`在OC中使用NSLog可以正常打印日志了, 但是在Swift中打印日志不能在Flutter控制台打印的情况依旧存在, 这里记录一下临时的解决方案.
 ### 解决办法
 `print`函数目前没有发现解决办法
+
 可以在Swift代码中是用`NSLog`函数, 但使用此函数在Flutter控制台第一行的信息不打印, 我们只需要在需要的内容前增加`\n`
 ``` swift
 NSLog("Before\nAfter")

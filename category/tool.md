@@ -1,5 +1,5 @@
 ---
 layout: category
-title: 科学上网
+title: 实用工具
 sidebar_sort_order: 3
 ---

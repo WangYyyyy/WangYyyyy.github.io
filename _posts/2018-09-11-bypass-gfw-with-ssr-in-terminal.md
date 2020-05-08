@@ -2,7 +2,7 @@
 layout: post
 title:  "Mac系统Terminal通过shadowsocks科学上网"
 date:   2018-09-11 16:11:02 +0800
-categories: 科学上网
+categories: 实用工具
 tags:
   - shadowsocks
   - SSR
