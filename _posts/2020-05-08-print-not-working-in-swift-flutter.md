@@ -21,4 +21,6 @@ NSLog("\nHello, World!")
 ```
 这样会完整打印出`Hello, World!`
 
-现在GitHub上这个issue还是open状态, 官方依然没有解决, 记录一下临时先这么用着吧! 附上issue地址[GitHub issue](https://github.com/flutter/flutter/issues/13204)
+现在GitHub上这个issue还是open状态, 官方依然没有解决, 记录一下临时先这么用着吧! 
+
+附上issue地址[GitHub issue](https://github.com/flutter/flutter/issues/13204)
